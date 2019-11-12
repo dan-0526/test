@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Small Login</title>
+    <link rel="stylesheet" href="css/public.css">
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/small-login.css">
+</head>
+<body>
+        <div class="box-include">
+            <div class="cnt-box">
+                <div class="cnt">
+                    <form id="login-form">
+                        <div class="container">
+                            <div class="u-tab">
+                                <a class="tab1">短信快捷登录</a>
+                            </div>
+                            <div class="inputbox">
+                                <div class="u-logo">
+                                    <div class="u-logo-img3"></div>
+                                </div>
+                                <div class="u-input">
+                                    <input type="tel" placeholder="请输入手机号" name="email" class="dlemail" autocomplete="off" tabindex="1" spellcheck="false" maxlength="11">
+                                </div>
+                            </div>
+                            <div class="change-email"></div>
+                            <div class="inputbox">
+                                <div class="u-logo">
+                                    <div class="u-logo-img2"></div>
+                                </div>
+                                <div class="u-input box">
+                                    <label class="u-label">请输入密码</label>
+                                    <input type="password" style="display: none; width: 0px; height: 0px;">
+                                    <input type="password" placeholder="请输入密码" name="email" class="dlemail" autocomplete="new-password" tabindex="2" spellcheck="false">
+                                    <input type="text" placeholder="请输入密码" class="u-pwdtext" spellcheck="false" style="z-index: -1;">
+                                </div>
+                            </div>
+                            <div class="nerror">
+                                <div class="ferrortail"></div>
+                                <div class="ferrorhead">手机号格式错误</div>
+                            </div>
+                            <div class="loginbox">
+                                <a tabindex="8" class="u-loginbtn">登&nbsp;录</a>
+                            </div>
+                            <div class="unlogin">
+                                <a class="forgetpwdReg" data-outlink="1" href="" target="_blank">忘记密码？</a>
+                                <a class="u-regbtn" href="" data-outlink="2" target="_self" tabindex="11" data-action="changepage" data-mdtype="1" data-log="mbLoginGoReg">手机快捷注册</a>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+</body>
+</html>
