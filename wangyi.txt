@@ -55,4 +55,31 @@
             </div>
         </div>
 </body>
+<script>
+    // $(".nav-item").mouseenter(function(){
+    //     $(this).children(".top-level").siblings(".nav-dropdown").addClass("active").parent(".nav-item").siblings(".nav-item").removeClass("active");
+    //     $(".nav-dropdown").css("display","none").eq($(this).index()-1).css("display","block");
+    // })
+    // $(".nav-item").mouseleave(function(){
+    //     $(this).children(".top-level").siblings(".nav-dropdown").removeClass("active");
+    // })
+
+    $(".nav-item").mouseenter(function(){
+        $(this).siblings().children(".nav-dropdown").removeClass("active");
+        $(this).children(".nav-dropdown").addClass("active")
+        // $(".nav-dropdown").css("display","none").eq($(this).index()-1).css("display","block");
+    })
+    $(".nav-item").mouseleave(function(){
+        $(this).children(".nav-dropdown").removeClass("active");
+    })
+
+    // $(".nav-item").children(".top-level").mouseenter(function(){
+    //     $(this).siblings(".nav-dropdown").addClass("active").parent(".nav-item").siblings(".nav-item>.nav-dropdown").removeClass("active");
+    //     $(".nav-dropdown").css("display","none").eq($(this).index()-1).css("display","block");
+    // })
+    // $(".nav-item").children(".top-level").mouseleave(function(){
+    //     $(this).siblings(".nav-dropdown").removeClass("active");
+    // })    
+</script>
 </html>
+222222222222222222
